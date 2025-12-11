@@ -1,0 +1,29 @@
+{
+  "name": "lec3",
+  "version": "1.0.0",
+  "description": "This is my react tutorial learning from Namaste React",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/developertj/learningReact.git"
+  },
+  "keywords": [
+    "react",
+    "js"
+  ],
+  "author": "Tejas Bhanushali",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/developertj/learningReact/issues"
+  },
+  "homepage": "https://github.com/developertj/learningReact#readme",
+  "devDependencies": {
+    "parcel": "^2.16.1"
+  },
+  "dependencies": {
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1"
+  }
+}
