@@ -10,19 +10,21 @@ function FirstComponent() {
     <>
       <h1>This is my first component of react</h1>
       <h2>Hi this is my header 2</h2>
-      h3
+      <SecondComponent />
     </>
   );
 }
 
 function SecondComponent() {
   // this is called as react fragment. also written as
-  <React.Fragment>
-    <h1>
-      This header is using react frangment. We cant apply styles to react
-      fragment as its an empty tag.
-    </h1>
-  </React.Fragment>;
+  return (
+    <React.Fragment>
+      <h1>
+        This header is using react frangment. We cant apply styles to react
+        fragment as its an empty tag.
+      </h1>
+    </React.Fragment>
+  );
 }
 
 root.render(<FirstComponent />);
